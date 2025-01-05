@@ -28,6 +28,12 @@ public class pageController {
             case 11:
                 pageContent = "html5.html";
                 break;
+            case 12:
+                pageContent = "CSS.html";
+                break;
+            case 13:
+                pageContent = "JAVASCRIPT.html";
+                break;
             default:
                 pageContent = "default.html";
                 break;

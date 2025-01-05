@@ -1,0 +1,31 @@
+main{
+    width:100%;
+    height:auto;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+#main_main{
+    height:800px;
+    align-content: center;
+    text-align: center;
+}
+#main_main h1,#main_main p{
+    opacity: 0;  /* 처음에는 숨김 */
+    transform: translateY(50px);  /* 화면 아래에서 시작 */
+    animation: fadeInUp 2s ease-out forwards;  /* 애니메이션 적용 */
+}
+/* 애니메이션 키프레임: 페이드 인 + 슬라이드 업 효과 */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);  /* 화면 아래에서 시작 */
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-100px);  /* 화면 아래에서 시작 */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);  /* 화면 위로 올라와서 원래 위치로 */
+    }
+}

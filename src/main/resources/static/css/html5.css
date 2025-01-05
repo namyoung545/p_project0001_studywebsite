@@ -1,0 +1,21 @@
+#html5{
+    width:100%;
+    height:auto;
+}
+#html5_container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 800px;
+}
+#html5_menu{
+    background-color: gray;
+    border:2px solid black;
+    padding:20px;
+}
+#html5_content{
+    background-color: green;
+    border:2px solid black;
+    border-left: 0px;
+    align-content: center;
+    padding:20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/html5.css" />
+    <link rel="stylesheet" href="/css/intro.css" />
+    <link rel="stylesheet" href="/css/profile.css" />
+    <link rel="stylesheet" href="/css/career.css" />
+    <script type="text/javascript" src="/js/header.js"></script> 
+</head>
+
+<body>
+    <div id="container">
+        <!-- header.html 포함 -->
+        <div th:replace="~{header.html}"></div>
+
+        <!-- main.html 포함 -->
+        <div th:include="~{main.html}"></div>
+
+        <!-- footer.html 포함 -->
+        <div th:replace="~{footer.html}"></div>
+    </div>
+</body>
+
+</html>

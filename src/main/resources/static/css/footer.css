@@ -1,0 +1,24 @@
+footer{
+    width:100%;
+    height:auto;
+    background-color: white;
+    text-align: center;
+}
+#footer_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px;
+    /* margin: 30px; */
+}
+.footer_link{
+    background-color: white;
+    align-content: center;
+}
+.footer_info{
+    background-color: white;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

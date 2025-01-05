@@ -1,0 +1,24 @@
+#CSS{
+    width:100%;
+    height:auto;
+}
+#CSS_container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 800px;
+}
+#CSS_menu{
+    background-color: gray;
+    border:2px solid black;
+    padding:25px;
+}
+.CSS_submenu{
+    padding-left: 20px;  /* 서브메뉴에 추가적인 들여쓰기 */
+}
+#CSS_content{
+    background-color: green;
+    border:2px solid black;
+    border-left: 0px;
+    align-content: center;
+    padding:20px;
+}
